@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">REGISTRO UNIVALLE</string>
+    <string name="hint_nombre">Nombre: </string>
+    <string name="hint_apellido">Apelido: </string>
+    <string name="hint_enail">email: </string>
+    <string name="hint_celular">celular: </string>
+    <string name="hint_nota">nota: </string>
+    <string name="text_nombre">ESTUDIANTE? </string>
+    <string name="btn_registrar">registrar: </string>
+
+
+</resources>

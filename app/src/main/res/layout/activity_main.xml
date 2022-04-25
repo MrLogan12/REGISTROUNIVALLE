@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="102dp"
+        android:layout_height="62dp"
+        android:backgroundTint="#9C1313"
+        android:text="@string/btn_registrar"
+        app:layout_constraintEnd_toEndOf="@+id/etpromedio"
+        app:layout_constraintHorizontal_bias="0.524"
+        app:layout_constraintStart_toStartOf="@+id/etpromedio"
+        tools:layout_editor_absoluteY="610dp" />
+
+    <Switch
+        android:id="@+id/swEstudiante"
+        android:layout_width="101dp"
+        android:layout_height="50dp"
+        android:hint="@string/text_nombre"
+        android:minHeight="48dp"
+        android:text="Switch"
+        app:layout_constraintEnd_toEndOf="@+id/etcelular"
+        tools:layout_editor_absoluteY="425dp" />
+
+    <EditText
+        android:id="@+id/etemail"
+        android:layout_width="282dp"
+        android:layout_height="39dp"
+        android:ems="10"
+        android:hint="@string/hint_enail"
+        android:inputType="textEmailAddress"
+        android:text="@string/hint_enail"
+        app:layout_constraintEnd_toEndOf="@+id/etapellido"
+        app:layout_constraintStart_toStartOf="@+id/etapellido"
+        tools:layout_editor_absoluteY="230dp" />
+
+    <EditText
+        android:id="@+id/etapellido"
+        android:layout_width="278dp"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:hint="@string/hint_apellido"
+        android:inputType="textPersonName"
+        android:text="@string/hint_apellido"
+        app:layout_constraintEnd_toEndOf="@+id/etnombre"
+        app:layout_constraintStart_toStartOf="@+id/etnombre"
+        tools:layout_editor_absoluteY="165dp" />
+
+    <EditText
+        android:id="@+id/etnombre"
+        android:layout_width="273dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="88dp"
+        android:ems="10"
+        android:hint="@string/hint_nombre"
+        android:inputType="textPersonName"
+        android:text="@string/hint_nombre"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/etcelular"
+        android:layout_width="279dp"
+        android:layout_height="41dp"
+        android:ems="10"
+        android:hint="@string/hint_celular"
+        android:inputType="phone"
+        android:text="@string/hint_apellido"
+        app:layout_constraintStart_toStartOf="@+id/etemail"
+        tools:layout_editor_absoluteY="309dp" />
+
+    <EditText
+        android:id="@+id/etpromedio"
+        android:layout_width="287dp"
+        android:layout_height="39dp"
+        android:ems="10"
+        android:hint="@string/hint_nota"
+        android:inputType="number"
+        android:text="@string/hint_nota"
+        app:layout_constraintEnd_toEndOf="@+id/swEstudiante"
+        tools:layout_editor_absoluteY="508dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
